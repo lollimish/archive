@@ -1,0 +1,23 @@
+.section span {
+    color: #646464;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+    padding-bottom: 0px;
+    display: inline-block;
+    margin: 0;
+}
+
+#card .section{
+    margin: 20px 0;
+}
+
+.add span{    
+    margin: 20px;
+    color:#646464;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+    padding: 0 0 2px 2px;
+    text-decoration: none;
+}

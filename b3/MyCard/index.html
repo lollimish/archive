@@ -1,0 +1,160 @@
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/style.css">        
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/colorbox.css">
+        <script src="js/modernizr-2.5.3.min.js"></script>
+        <script src="js/jquery-1.7.1.min.js"></script>
+        <script src="js/colorbox.js"></script>
+        <script src="js/popup.js"></script>
+    </head>
+    <body>
+
+        <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
+
+        <header>
+            <h1>#My Cards#</h1>
+        </header>
+        <p><a class="inline cboxElement" href="#_1">Inline HTML</a></p>
+        <div role="main">
+            <ul id="sort-by" class="option-set clearfix" data-option-key="sortBy">
+                <li><a href="#sortBy=name" data-option-value="name">name</a></li>
+                <li><a href="#sortBy=data" data-option-value="date">date</a></li>
+                <li><a href="#sortBy=client" data-option-value="client">client</a></li>
+            </ul>
+
+            <section>
+                <div class="col-sm-6 row-col">
+                    <label>Search by</label>
+                    <select id="search_method"> 
+                        <option value="search_name">Project name</option>
+                        <option value="search_client">Client</option>
+                        <option value="search_date">Date</option>
+                        <option value="search_hashtag">HashTag</option>
+                    </select>
+
+                    <input type="text" class='search' name="search_name" id="search_name" value="" placeholder="Start typing..." autocomplete="off" /> 
+                </div>
+            </section>
+
+
+            <p id="noMatches" style="display:none;">No matches found</p>
+            <div id="container" class="clearfix">
+                <ul class="iso-container clearfix">
+
+                    <li class="item" id="_3">
+                        <span class="name">Beauregard</span>
+                        <span class="client">John</span>
+                        <span class="date">Beauregard</span>
+                        <span class="hashtag">Beauregard Bunsen Facebook Span Dev</span>
+                    </li>
+
+
+                    <li class="item" id="_4">
+                        <span class="name">Camilla the Chicken</span>
+                        <span class="client">John Pi</span>
+                        <span class="date">Camilla the Chicken</span>
+                        <span class="hashtag">Camilla the Chicken Dev Design</span>
+                    </li>
+                    <li class="item stitched" id="_1">
+                        <span class="name">Animal</span>
+                        <span class="client">Amy Anderson</span>
+                        <span class="date">Animal</span>
+                        <span class="hashtag">Animal Dog Cat Bird</span>
+                    </li>
+                    <li class="item" id="_5">
+                        <span class="name">Crazy Harry Design Project</span>
+                        <span class="client">Harry Jason</span>
+                        <span class="date">Crazy Harry</span>
+                        <span class="hashtag">Crazy Harry Design</span>
+                    </li>
+                    <li class="item" id="_6">
+                        <span class="name">Bun Honeydew Project</span>
+                        <span class="client">Bunsen Honeydew</span>
+                        <span class="date">Dr. Bunsen Honeydew</span>
+                        <span class="hashtag">Dr. Bunsen Honeydew Pepper Development</span>
+                    </li>
+
+                    <li class="item" id="_8">
+                        <span class="name">Dr. Teeth</span>
+                        <span class="client">Lucus Junior</span>
+                        <span class="date">Dr. Teeth</span>
+                        <span class="hashtag">Teeth Pepper</span>
+                    </li>
+                    <li class="item" id="_9">
+                        <span class="name">Floyd Pepper</span>
+                        <span class="client">Miranda Pepper</span>
+                        <span class="date">Floyd Pepper</span>
+                        <span class="hashtag">Floyd Pepper</span>
+                    </li>
+                    <li class="item" id="_10">
+                        <span class="name">Foo-Foo</span>
+                        <span class="client">Foo-Foo</span>
+                        <span class="date">Foo-Foo</span>
+                        <span class="hashtag">Foo-Foo Bear Pepper Bunsen</span>
+                    </li>
+                    <li class="item" id="_11">
+                        <span class="name">Fozzie Bear</span>
+                        <span class="client">Fozzie Bear</span>
+                        <span class="date">Fozzie </span>
+                        <span class="hashtag">Fozzie Bear Bunsen</span>
+                    </li>
+                    <li class="item" id="_2">
+                        <span class="name">Beaker Cove</span>
+                        <span class="client">Bryan Fetcher</span>
+                        <span class="date">Beaker</span>
+                        <span class="hashtag">Beaker Nina Bun Twitter</span>
+                    </li>
+                    <li class="item" id="_12">
+                        <span class="name">George the Janitor</span>
+                        <span class="client">George the Janitor</span>
+                        <span class="date">George the Janitor</span>
+                        <span class="hashtag">George the Janitor Bunsen</span>
+                    </li>
+                    <li class="item" id="_13">
+                        <span class="name">Great</span>
+                        <span class="client">Gonzo the Great</span>
+                        <span class="date">Gonzo the Great</span>
+                        <span class="hashtag">Gonzo the Great Janitor</span>
+                    </li>
+                    <li class="item" id="_7">
+                        <span class="name">Dr. Julius Strangepork</span>
+                        <span class="client">Dr. Julius Strangepork</span>
+                        <span class="date">Dr. Julius Strangepork</span>
+                        <span class="hashtag">Julius Strangepork Pepper Online</span>
+                    </li>
+                    <li class="item" id="_14">
+                        <span class="name">Janice</span>
+                        <span class="client">Janice</span>
+                        <span class="date">Janice</span>
+                        <span class="hashtag">Janice Janitor Pepper</span>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+        <footer>
+
+        </footer>
+
+        <script src="js/jquery.ba-bbq.min.js"></script>
+        <script src="js/underscore.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/script.js"></script>
+
+
+
+    </body>
+</html>
